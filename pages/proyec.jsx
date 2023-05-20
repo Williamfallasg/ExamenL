@@ -1,7 +1,17 @@
 import Layout from "../components/Layout";
+import Slider from 'react-slick';
 
 
+const MyCarousel = ({ data }) => {
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+    };
 
+}
 export default function index({ data }) {
     return (
         <Layout>
@@ -15,8 +25,9 @@ export default function index({ data }) {
                                 <div className="card bg-primary text-light">
                                     <img src="/portafolio5.png" alt="" className="img-fluid" />
                                     <div className="card-body">
-                                        <h5>Nombre:</h5>
-                                        <p>{name} - {id}</p>
+                                        
+                                        <p> Nombre: {name} - 
+                                        Clave: {id} </p>
                                     </div>
                                 </div>
                             </div>

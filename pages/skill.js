@@ -4,7 +4,6 @@ import { conocimientos } from "./conocimiento";
 import Link from "next/link";
 
 const Skill = () =>
-
     <Layout>
         <div className="row py-3">
             <div className="col-md-6">
@@ -27,20 +26,20 @@ const Skill = () =>
                 </div>
             </div>
 
-                 <div className="col-md-6">
-                     <div className="card bg-info">
+            <div className="col-md-6">
+                <div className="card bg-info">
                     <    div className="card-body">
-                              <h1>Información Personal</h1>
-                                <ul>
-                                    <li>
-                                       <h5>Edad: 28 años</h5>
-                                       <h5>Nacionalidad: costarricense</h5>
-                                        <h5>Email: Williamfallasg50@gmail.com</h5>
-                                       <h5>Dirección: Costa Rica, Puntarenas, Golfito, Golfito</h5>
-                                       <h5>Teléfono: 87507272</h5>
-                                       <h5>Ocupación: estudiante</h5>
-                                    </li>
-                                </ul>
+                        <h1>Información Personal</h1>
+                        <ul>
+                            <li>
+                                <h5>Edad: 28 años</h5>
+                                <h5>Nacionalidad: costarricense</h5>
+                                <h5>Email: Williamfallasg50@gmail.com</h5>
+                                <h5>Dirección: Costa Rica, Puntarenas, Golfito, Golfito</h5>
+                                <h5>Teléfono: 87507272</h5>
+                                <h5>Ocupación: estudiante</h5>
+                            </li>
+                        </ul>
 
                         <h1>Intereses</h1>
                         <ul>
@@ -51,12 +50,12 @@ const Skill = () =>
                                 <h5>Inteligencia artificial</h5>
                             </li>
                         </ul>
-                          <div>
-                              <Link legacyBehavior href="https://www.linkedin.com/in/william-gonz%C3%A1lez-9a8b64176/">
-                                  <a className="btn btn-light">
+                        <div>
+                            <Link legacyBehavior href="https://www.linkedin.com/in/william-gonz%C3%A1lez-9a8b64176/">
+                                <a className="btn btn-light">
                                     <button>Perfil LinkedIn</button>
-                                  </a>
-                              </Link>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
