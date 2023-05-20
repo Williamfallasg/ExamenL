@@ -1,6 +1,8 @@
 import { progress } from "framer-motion";
 import Layout from "../components/Layout";
 import Link from "next/link";
+import 'bootswatch/dist/lux/bootstrap.min.css';
+
 
 const Index = () =>
     <Layout>

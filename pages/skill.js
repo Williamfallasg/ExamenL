@@ -2,6 +2,7 @@ import Layout from "../components/Layout"
 import 'tailwindcss/tailwind.css';
 import { conocimientos } from "./conocimiento";
 import Link from "next/link";
+import 'bootswatch/dist/lux/bootstrap.min.css';
 
 const Skill = () =>
     <Layout>

@@ -5,6 +5,7 @@ const GitHub = ({ user }) => {
 
     return (
         <Layout>
+           
             <div className="row">
                 <div className="col-md-5 offset-md-5">
                     <div className="card card-body text-center bg-primary text-light">
@@ -22,6 +23,9 @@ const GitHub = ({ user }) => {
                     </div>
                 </div>
             </div>
+           
+
+
 
 
         </Layout>)
