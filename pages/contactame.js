@@ -5,12 +5,12 @@ const Contactame = () =>
     <Layout>
         <>
             <div className="col-md-12">
-                <div className="card card-body bg-secondary text-light">
+                <div className="card card-body bg-light">
                     <div className="row py-11">
                         <div className="contact_form">
                             <div className="formulario">
-                                <h1>Contact Me</h1>
-                                <h3>Hola, Escríbeme y en breve los pondremos en contacto contigo</h3>
+                                <h1 className="text-center text-dark">Contact Me</h1>
+                                <h3 className="text-center text-dark">Hola, Escríbeme y en breve los pondremos en contacto contigo</h3>
                                 <form action="submeter-formulario.php" method="post">
                                     <div className="form-group">
                                         <label htmlFor="nombre">
@@ -82,7 +82,7 @@ const Contactame = () =>
                                         Enviar
                                     </button>
                                     <p className="aviso">
-                                        <span className="obligatorio">*</span>Todos los campos son el simbolo son obligatorios.
+                                        <span className="obligatorio">*</span>Todos los campos son obligatorios.
                                     </p>
                                 </form>
                             </div>

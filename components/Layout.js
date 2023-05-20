@@ -1,6 +1,5 @@
 import Navbar from "./Navbar";
 import 'tailwindcss/tailwind.css';
-
 import { useEffect } from "react";
 import { useRouter } from 'next/router';
 

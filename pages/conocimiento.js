@@ -1,33 +1,33 @@
 
-export const conocimeintos = [
+export const conocimientos = [
     {
-        conocimeinto: 'PYTHON',
-        percentage: 90,
-    }, 
-    {
-        conocimeinto: 'REDES',
+        conocimiento: 'PYTHON',
         percentage: 90,
     },
     {
-        conocimeinto: 'MATLAB',
+        conocimiento: 'REDES',
         percentage: 90,
     },
     {
-        conocimeinto: 'JAVA',
+        conocimiento: 'MATLAB',
         percentage: 90,
     },
     {
-        conocimeinto: 'JAVASCRIPT',
+        conocimiento: 'JAVA',
+        percentage: 90,
+    },
+    {
+        conocimiento: 'JAVASCRIPT',
         percentage: 80,
     },
     {
-        conocimeinto: 'REACT',
+        conocimiento: 'REACT',
         percentage: 82,
     },
     {
-        conocimeinto: 'NEXTJS',
+        conocimiento: 'NEXTJS',
         percentage: 70,
     },
 
-   
+
 ]

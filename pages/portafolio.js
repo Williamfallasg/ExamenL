@@ -1,14 +1,14 @@
 import Layout from "../components/Layout"
 import 'tailwindcss/tailwind.css';
 import Link from "next/link";
-
+import React from 'react'
 const Portafolio = () =>
 
   <Layout>
     <div className="row">
       <div className="col-md-12">
         <div className="card card-body bg-dark">
-          <div className="row">
+          <div className="row ">
             <div className="col-md-12">
               <h1 className="text-center text-light">Portafolio</h1>
             </div>
@@ -21,7 +21,7 @@ const Portafolio = () =>
                   <p>
                     Description: Elaboración del patron de Diseño Factory Metho.
                   </p>
-                  <Link legacyBehavior href="https://github.com/Williamfallasg/PatrondeDisenoFactoryMethod1">
+                  <Link legacyBehavior href="">
                     <a className="btn btn-light">
                       <button>Proyecto 1</button>
                     </a>
