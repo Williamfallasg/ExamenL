@@ -1,6 +1,6 @@
 import Layout from "../components/Layout"
 import 'tailwindcss/tailwind.css';
-import 'bootswatch/dist/morph/bootstrap.min.css';
+import 'bootswatch/dist/pulse/bootstrap.min.css';
 
 const Contacto = () =>
 

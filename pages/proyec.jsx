@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import Slider from 'react-slick';
-
+import GithubProvider from './GithubProvider';
+import ProjectList from './ProjectList';
 
 const MyCarousel = ({ data }) => {
     const settings = {
